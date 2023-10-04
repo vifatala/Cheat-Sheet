@@ -1,0 +1,66 @@
+body {
+    font-family: "Gabarito";
+    margin: 0;
+    background-color: #FFFADD;
+}
+
+nav {
+    text-align: center;
+}
+
+nav h2 {
+    color: #22668D;
+    font-size: 27px;
+}
+
+header {
+    padding-top: 0;
+    background-color: #22668D;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 750;
+    color: #8ECDDD;
+    padding: 20px 0;
+}
+
+
+table {
+    text-align: center;
+    margin: 20px auto;
+}
+
+td,
+th {
+    min-width: 300px;
+    max-width: 550px;
+    padding: 2px 8px 0;
+    text-align: center;
+
+}
+
+th {
+    font-size: 28px;
+    color: #22668D;
+    background-color: #FFCC70;
+    border: 3px solid #FFCC70;
+}
+
+td {
+    font-size: 22px;
+    color: #22668D;
+    background-color: #FFFADD;
+    border: 3px solid #FFCC70;
+}
+
+.code {
+    font-size: 18px;
+    font-family: "Roboto Mono";
+}
+
+.description {
+    font-size: 16px;
+}
