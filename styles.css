@@ -2,20 +2,6 @@ body {
     font-family: "Gabarito";
     margin: 0;
     background-color: #FFFADD;
-}
-
-nav {
-    text-align: center;
-}
-
-nav h2 {
-    color: #22668D;
-    font-size: 27px;
-}
-
-header {
-    padding-top: 0;
-    background-color: #22668D;
     text-align: center;
 }
 
@@ -27,14 +13,51 @@ h1 {
     padding: 20px 0;
 }
 
+h2 {
+    margin-bottom: 3px;
+    color: #22668D;
+    font-size: 27px;
+}
+
+header {
+    padding-top: 0;
+    background-color: #22668D;
+    text-align: center;
+}
+
+.table-tags,
+.table-attributes {
+    margin-bottom: 40px;
+}
 
 table {
-    text-align: center;
-    margin: 20px auto;
+    overflow: visible;
+    margin: 0px auto;
+}
+
+caption {
+    color: #80745E;
+    margin-top: 10px;
+    caption-side: bottom;
+}
+
+a {
+    font-weight: 600;
+    transition-duration: 1s;
+}
+
+a:hover {
+    transition-duration: 1s;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #80745E;
 }
 
 td,
 th {
+    height: 40px;
     min-width: 300px;
     max-width: 550px;
     padding: 2px 8px 0;
